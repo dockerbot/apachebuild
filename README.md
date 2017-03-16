@@ -43,19 +43,19 @@ Tu vas copier et coller tous ton php code dans ce document.
 
 ### Construis la page.
 ```
-docker build -t IMAGE\_NOM .
+docker build -t IMAGE_NOM .
 ```
 
 ### Exécute la page et l'assigne à un port.
 ```
-docker run -d -p NOMBRE\_DU\_PORT:80 IMAGE\_NOM
+docker run -d -p NOMBRE_DU_PORT:80 IMAGE_NOM
 ```
 
 Recherche "localport:NOMBRE\_DU\_PORT" sur un navigateur pour voir la page web.
 
 ### Pour effacer, arrête la container de l'image:
 ``` 
-docker stop CONTAINER\_ID
+docker stop CONTAINER_ID
 ```
 ---
 
