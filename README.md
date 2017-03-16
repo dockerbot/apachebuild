@@ -53,9 +53,9 @@ docker run -d -p NOMBRE\_DU\_PORT:80 IMAGE\_NOM
 
 Recherche "localport:NOMBRE\_DU\_PORT" sur un navigateur pour voir la page web.
 
-#### Pour effacer, arrête la container de l'image:
+### Pour effacer, arrête la container de l'image:
 ``` 
-docker stop CONATINER\_ID
+docker stop CONTAINER\_ID
 ```
 ---
 
