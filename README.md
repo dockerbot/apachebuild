@@ -9,8 +9,8 @@
 
 ### Pour vérifier le téléchargement, tape:
 ```
-**pcapprenant15@pcapprenant15:~/apachebuild$** cd apachebuild
-**pcapprenant15@pcapprenant15:~/apachebuild$** ls
+cd apachebuild
+ls
 ```
 
 Tu dois voir le trois documents listé ci-dessus.
@@ -20,13 +20,13 @@ Tu dois voir le trois documents listé ci-dessus.
 
 ### Crée le directory nommé "www".
 ```
-**pcapprenant15@pcapprenant15:~/apachebuild$** mkdir www
-**pcapprenant15@pcapprenant15:~/apachebuild$** cd www
+mkdir www
+cd www
 ```
 
 ### Avec "nano", crée un document nommé "index.php".
 ```
-**pcapprenant15@pcapprenant15:~/apachebuild/www$** nano index.php
+nano index.php
 ```
 
 Tu vas copier et coller tous ton php code dans ce document.
@@ -43,19 +43,19 @@ Tu vas copier et coller tous ton php code dans ce document.
 
 ### Construis la page.
 ```
-**pcapprenant15@pcapprenant15:~/apachebuild$** docker build -t IMAGE\_NOM .
+docker build -t IMAGE\_NOM .
 ```
 
 ### Exécute la page et l'assigne à un port.
 ```
-**pcapprenant15@pcapprenant15:~/apachebuild$** docker run -d -p NOMBRE\_DU\_PORT:80 IMAGE\_NOM
+docker run -d -p NOMBRE\_DU\_PORT:80 IMAGE\_NOM
 ```
 
 Recherche "localport:NOMBRE\_DU\_PORT" sur un navigateur pour voir la page web.
 
 #### Pour effacer, arrête la container de l'image:
 ``` 
-**pcapprenant15@pcapp-renant15:~/apachebuild$** docker stop CONATINER\_ID
+docker stop CONATINER\_ID
 ```
 ---
 
