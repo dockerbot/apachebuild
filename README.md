@@ -5,7 +5,7 @@
 ### Télécharge le fichier "apachebuild" avec les trois documents:
  * _apache-config.conf_	
  * _Dockerfile_
- * _instruction&installation.md_
+ * _README.md_
 
 ### Pour vérifier le téléchargement, tape:
  * **pcapprenant15@pcapprenant15:~/apachebuild$** cd apachebuild
@@ -29,7 +29,7 @@ Tu vas copier et coller tous ton php code dans ce document.
 ### Tu dois voir:
  * _apache-config.conf_
  * _Dockerfile_
- * _instruction&installation.md_
+ * _README.md_
  * _**www**_
 
 ---
